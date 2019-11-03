@@ -64,6 +64,8 @@ struct Avto{
         }
     }
 }
+    
+
 
 var car1 = Avto(avtoType: .car, mark: "Opel", eyar: 2012, trankVolume: 570, trankStatus: .empty, engienStatus: .stop, windowsStatus: .close)
 var car2 = Avto(avtoType: .truck, mark: "Volvo", eyar: 2002, trankVolume: 20000, trankStatus: .empty, engienStatus: .stop, windowsStatus: .open)
@@ -72,3 +74,4 @@ car1.engienStatus = .start
 car2.trankStatus = .full
 car1.ignitionAvto(statusKey: .off)
 car2.ignitionAvto(statusKey: .off)
+
